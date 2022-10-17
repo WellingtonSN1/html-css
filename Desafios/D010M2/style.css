@@ -1,0 +1,134 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('Idroid-0rod.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'bison';
+    src: url('Bison-Bold.ttf') format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600&display=swap');
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #EBE5C5;
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #2EA664, #05351A);
+    padding: 10px;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.329);
+}
+
+header > h1 {
+    text-align: center;
+    font-family: 'bison', arial, sans-serif;
+    font-size: 48px;
+    margin-top: 30px;
+    color: white;
+    text-shadow: 4px 4px 9px rgba(0, 0, 0, 0.322);
+}
+
+header > h2 {
+    text-align: center;
+    font-size: 19px;
+    color: white;
+    text-shadow: 4px 4px 9px rgba(0, 0, 0, 0.336);
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+
+header > nav > a {
+    color: #2FA866;
+    margin-right: 13px;
+    margin-left: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+header > nav > a:hover {
+    background-color: #1A5C37;
+    color: #2cc473;
+    border-radius: 5px;
+    padding: 5px;
+    transition-duration: 0.5s;
+
+}
+
+main {
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.267);
+}
+
+main > h1 {
+    font-family: 'idroid', Arial, Helvetica, sans-serif;
+    color: #1B5D39;
+    font-size: 30px;
+
+}
+
+main > p {
+    font-weight: 600;
+    text-align: justify;
+    text-indent: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.links {
+    color: #2cc473;
+    text-decoration: none;
+}
+
+.links:hover {
+    text-decoration: underline;
+}
+
+.sub {
+    font-size: 20px;
+    background-image: linear-gradient(to right, #5a927365, rgba(255, 255, 255, 0));
+    padding: 1px 5px 1px 5px;
+}
+
+.droid {
+    text-align: center;
+    min-width: 500px;
+
+}
+
+.irina {
+    text-align: center;
+}
+
+.bug {
+    text-align: center;
+}
+
+.video1 {
+    text-align: center;
+    border: 25px solid #063D1E;
+    margin: 20px 0px 20px 0px;
+}
+
+h3 {
+    background-color: #1A5C37;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px;
+}
+
+.final {
+    background-color: #83E1AD;
+    color: black;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    text-indent: 25px;
+}
