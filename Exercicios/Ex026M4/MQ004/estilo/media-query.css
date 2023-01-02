@@ -9,18 +9,25 @@
 }
 
 body {
-
+    background-image: url(../imagens/back-print.jpg)
 }
 
 main {
     border: 2px solid black;
-    width: 90%;
+    width: 90vw;
 }
 
 main h1 {
     text-shadow: none;
     color: black;
 }
+
+main::after {
+    content: 'Essa impressão foi feita através do site www.lordwelin.com';
+    text-decoration: overline;
+    
+}
+
 
 img#fone { display: none; }
 img#tablet { display: none; }
@@ -62,6 +69,10 @@ img#tv { display: none; }
     
 body {
     background-image: url(../imagens/back-tv.jpg);
+}
+
+main {
+    width: 700px;
 }
 
 img#fone { display: none; }
